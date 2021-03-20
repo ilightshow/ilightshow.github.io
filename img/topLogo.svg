@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="136px" viewBox="0 0 102 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>topLogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.8%" y="-1.4%" width="101.7%" height="102.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-35.5%" y="-53.0%" width="171.1%" height="206.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="7.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50.7578127%" y1="-0.749999995%" x2="50.7578127%" y2="98.3047105%" id="linearGradient-3">
+            <stop stop-color="#00FFD2" offset="0%"></stop>
+            <stop stop-color="#4692FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="11″-iPad-Pro" transform="translate(-549.000000, 0.000000)">
+            <g id="topLogo" transform="translate(568.000000, -258.000000)">
+                <g id="CeilingLamp">
+                    <path d="M32.0749415,352.931769 C40.3527457,352.931769 47.0632319,346.252699 47.0632319,338.013649 C47.0632319,329.774599 40.3527457,333.97453 32.0749415,333.97453 C23.7971372,333.97453 17.0866511,329.774599 17.0866511,338.013649 C17.0866511,346.252699 23.7971372,352.931769 32.0749415,352.931769 Z" id="Oval-2" stroke="#979797" stroke-width="0.5" fill="#DB10E0" filter="url(#filter-1)">
+                        <animate attributeName="fill" values="red;magenta;blue;cyan;green;yellow;red" dur="4s" repeatCount="indefinite" />
+                    </path>
+                    <path d="M32,375.890295 C49.673112,375.890295 64,361.554717 64,343.870886 C64,326.187055 49.673112,335.201549 32,335.201549 C14.326888,335.201549 0,326.187055 0,343.870886 C0,361.554717 14.326888,375.890295 32,375.890295 Z" id="Oval-2-Copy" stroke="#979797" stroke-width="0.5" fill="#DB10E0" opacity="0.222739147" filter="url(#filter-2)">
+                        <animate attributeName="fill" values="red;magenta;blue;cyan;green;yellow;red" dur="4s" repeatCount="indefinite" />
+                    </path>
+                    <path d="M32,291.685304 L32,0.0750798722" id="Line" stroke="#336ECE" stroke-width="2.55" stroke-linecap="square"></path>
+                </g>
+                <g id="Group-2" transform="translate(32.074941, 312.482428) scale(1, -1) translate(-32.074941, -312.482428) translate(4.346604, 284.402556)">
+                    <g id="Group-Copy-2" style="mix-blend-mode: overlay;" transform="translate(27.593077, 28.079872) rotate(90.000000) translate(-27.593077, -28.079872) translate(-0.541041, 0.539998)"></g>
+                    <path d="M51.4236963,3.7799828 C53.6510486,3.7799828 55.4566745,5.59557974 55.4566745,7.83633226 C55.4566745,10.0765922 53.6509043,11.8926817 51.4236963,11.8926817 L4.03297818,11.8926817 C1.80562584,11.8926817 0,10.0770848 0,7.83633226 C0,5.59607231 1.80577014,3.7799828 4.03297818,3.7799828 L51.4236963,3.7799828 Z M44.6764445,17.6874667 C46.8982331,17.6874667 48.6993486,19.5030636 48.6993486,21.7438161 C48.6993486,23.9840761 46.8971282,25.8001656 44.6764445,25.8001656 L11.0132412,25.8001656 C8.79145264,25.8001656 6.99033712,23.9845687 6.99033712,21.7438161 C6.99033712,19.5035562 8.79255754,17.6874667 11.0132412,17.6874667 L44.6764445,17.6874667 Z M35.5666758,31.1313678 C37.8007971,31.1313678 39.6119103,32.9469647 39.6119103,35.1877172 C39.6119103,37.4279772 37.801113,39.2440667 35.5666758,39.2440667 L19.8899987,39.2440667 C17.6558773,39.2440667 15.8447641,37.4284697 15.8447641,35.1877172 C15.8447641,32.9474573 17.6555614,31.1313678 19.8899987,31.1313678 L35.5666758,31.1313678 Z M35.5666758,44.8070602 C37.8007971,44.8070602 39.6119103,46.6226572 39.6119103,48.8634097 C39.6119103,51.1036696 37.801113,52.9197592 35.5666758,52.9197592 L19.8899987,52.9197592 C17.6558773,52.9197592 15.8447641,51.1041622 15.8447641,48.8634097 C15.8447641,46.6231497 17.6555614,44.8070602 19.8899987,44.8070602 L35.5666758,44.8070602 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
