@@ -13,6 +13,22 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <style>
+
+        .gradient {
+            position: absolute;
+            top:0px;
+            left: 0px;
+            right: 0px;
+            width: auto;
+            height: 50px;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2900ff+0,2900ff+100&0.26+0,0+100 */
+            background: -moz-linear-gradient(top,  rgba(41,0,255,0.26) 0%, rgba(41,0,255,0) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  rgba(41,0,255,0.26) 0%,rgba(41,0,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  rgba(41,0,255,0.26) 0%,rgba(41,0,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#422900ff', endColorstr='#002900ff',GradientType=0 ); /* IE6-9 */
+
+        }
+
         h1>span {
             position: absolute;
             font-size: small;
@@ -97,17 +113,17 @@
         h1>a:hover {
             text-decoration: none;
         }
+        
 
-        h2 {
+        .desc > h2 {
             margin-top: 40px;
             font-size: 2em;
-            color:  #0d54da;
+            color:  #224b97;
         }
 
         h3 {
-            color:  #2e5194;
+            color:  #4972be;
         }
-
         
 
         h1,
@@ -119,9 +135,9 @@
             font-weight: 800;
         }
 
-        h1 strong {
+        h1 strong, h2 > span {
             color: #4400ff;
-            border-bottom: #222222 solid 3px;
+            /* border-bottom: #4b4b4b solid 3px; */
         }
 
         .download {
@@ -198,7 +214,7 @@
 </head>
 
 <body>
-
+    <div class="gradient"></div>
     <div class="main">
         <div style="text-align: center;">
             <!-- <img class="icon" srcset="img/topLogo.png 1x, img/topLogo@2x.png 2x" alt="iLightShow icon"> -->
@@ -216,16 +232,16 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-left">
-                        <h2>Sync Lights</h2>
+                        <h2>Sync <span style="color: #4400ff;">Lights</span></h2>
                         <p>Philips Hue, LIFX, Nanoleaf</p>
                     </div>
                     <div class="feature-right">
-                        <img srcset="img/lightbulb.jpg 1x, img/lightbulb@2x.jpg 2x" alt="">
+                        <img srcset="img/lightIcon.png 1x, img/lightIcon@2x.png 2x" alt="">
                     </div>
                 </div>
                 <div class="feature-item">
                     <div class="feature-left">
-                        <h2>to the Music</h2>
+                        <h2>to the <span style="color: #4400ff;">Music</span></h2>
                         <p>Spotify & Apple Music</p>
                     </div>
                     <div class="feature-right">
@@ -245,51 +261,55 @@
             
         </div>
         <!-- <hr> -->
+
+        <div class="desc">
+
+            <h2>Lights, Music, synchronized together</h2>
+            <p>Live an amazing lighting experience! Create your own ambiance, from chill to party, it's all up to you.
+                iLightShow connects Apple Music and Spotify streaming services to Philips Hue, LIFX and Nanoleaf Aurora or Canvas lighting systems. Perfect to make your home parties really awesome! Transform your apartment or house into a real dancefloor. Simple but efficient, iLightShow does not need many options, you just need to login to Apple Music or Spotify and link your Philips Hue Bridge, we do all the rest for you.</p>
+            <h2>How does it work?</h2>
+            <p>Unlike other apps, iLightShow is not only listening to your favorite device's microphone. 
+                iLightShow leverages an advanced algorithm to create a show so that it knows in advance 
+                how to sync lights with music's beats in order to create a perfectly synced light show!</p>
+        
+            <h2>How do I start the synchronization?</h2>
+            <h3>Lights</h3>
+            <p>iLightShow is compatible with Philips Hue, LIFX and Nanoleaf (Aurora, Canvas and Shapes). Start by linking the app with the lights, then select at least one of them!</p>
+            <h3>Spotify</h3>
+            <p>Open iLightShow, then sign into the app using your Spotify account. iLightShow will then detect the playback and start the light show!</p>
+            <h3>Apple Music (only available on iOS)</h3>
+            <p>Open iLightShow on iOS, then select Apple Music. You'll be asked to grant the access to the Media Library, then iLightShow will detect the playback!</p>
+        
+            <h2>What's new with iLightShow 2?</h2>
+            <h3>Smart algorithm</h3>
+            <p>iLightShow 2 now has a new algorithm called "party mode". This algorithm allows iLightShow to detect when to
+                trigger some specific kind of effects.</p>
+        
+            <h3>New options/effects</h3>
+            <p>iLightShow 2 now has new strobe effects, new flashes and more options to create a
+                better show.</p>
+            <p>You now have the possibility to control the brightness of each individual light.</p>
+        
+            <h3>Supports the Hue Entertainment</h3>
+            <p>The Hue entertainment feature (or protocol) is awesome. It allows the app to control up to 10 lights per Hue
+                bridge at the same time with no latency.</p>
+            <p>This feature can be hard to understand for new Hue users, which is why iLightShow automatically manages Hue
+                Entertainment groups under the hood. Just select the lights you want to use, and iLightShow 2 will create it for
+                you.</p>
+        
+            <h2>Requirements</h2>
+            <ul>
+                <li>Philips Hue Bridge and some Philips Hue Smart Bulbs (for more information, see http://meethue.com). Also works with TRÅDFRI bulbs, linked to the hue bridge.</li>
+                <li>OR/AND LIFX lights (no bridge required)</li>
+                <li>OR/AND Nanoleaf Aurora or Canvas panels (no bridge required)</li>
+                <li>An Apple Music account OR Spotify Music Account</li>
+            </ul>
+        
+            <h2>Contact</h2>
+            <p>Feel free to reach out if you have any question!</p>
+            <p>Email me at <a href="mailto:contact@ilightshow.net">contact@ilightshow.net</a>, or reach out to me via <a href="https://twitter.com/iLightShow">Twitter</a> or <a href="https://facebook.com/iLightShow">Facebook</a>!</p>
+        </div>
     
-        <h2>Lights, Music, synchronized together</h2>
-        <p>Live an amazing lighting experience! Create your own ambiance, from chill to party, it's all up to you.
-            iLightShow connects Apple Music and Spotify streaming services to Philips Hue, LIFX and Nanoleaf Aurora or Canvas lighting systems. Perfect to make your home parties really awesome! Transform your apartment or house into a real dancefloor. Simple but efficient, iLightShow does not need many options, you just need to login to Apple Music or Spotify and link your Philips Hue Bridge, we do all the rest for you.</p>
-        <h2>How does it work?</h2>
-        <p>Unlike other apps, iLightShow is not only listening to your favorite device's microphone. 
-            iLightShow leverages an advanced algorithm to create a show so that it knows in advance 
-            how to sync lights with music's beats in order to create a perfectly synced light show!</p>
-    
-        <h2>How do I start the synchronization?</h2>
-        <h3>Lights</h3>
-        <p>iLightShow is compatible with Philips Hue, LIFX and Nanoleaf (Aurora, Canvas and Shapes). Start by linking the app with the lights, then select at least one of them!</p>
-        <h3>Spotify</h3>
-        <p>Open iLightShow, then sign into the app using your Spotify account. iLightShow will then detect the playback and start the light show!</p>
-        <h3>Apple Music (only available on iOS)</h3>
-        <p>Open iLightShow on iOS, then select Apple Music. You'll be asked to grant the access to the Media Library, then iLightShow will detect the playback!</p>
-    
-        <h2>What's new with iLightShow 2?</h2>
-        <h3>Smart algorithm</h3>
-        <p>iLightShow 2 now has a new algorithm called "party mode". This algorithm allows iLightShow to detect when to
-            trigger some specific kind of effects.</p>
-    
-        <h3>New options/effects</h3>
-        <p>iLightShow 2 now has new strobe effects, new flashes and more options to create a
-            better show.</p>
-        <p>You now have the possibility to control the brightness of each individual light.</p>
-    
-        <h3>Supports the Hue Entertainment</h3>
-        <p>The Hue entertainment feature (or protocol) is awesome. It allows the app to control up to 10 lights per Hue
-            bridge at the same time with no latency.</p>
-        <p>This feature can be hard to understand for new Hue users, which is why iLightShow automatically manages Hue
-            Entertainment groups under the hood. Just select the lights you want to use, and iLightShow 2 will create it for
-            you.</p>
-    
-        <h2>Requirements</h2>
-        <ul>
-            <li>Philips Hue Bridge and some Philips Hue Smart Bulbs (for more information, see http://meethue.com). Also works with TRÅDFRI bulbs, linked to the hue bridge.</li>
-            <li>OR/AND LIFX lights (no bridge required)</li>
-            <li>OR/AND Nanoleaf Aurora or Canvas panels (no bridge required)</li>
-            <li>An Apple Music account OR Spotify Music Account</li>
-        </ul>
-    
-        <h2>Contact</h2>
-        <p>Feel free to reach out if you have any question!</p>
-        <p>Email me at <a href="mailto:contact@ilightshow.net">contact@ilightshow.net</a>, or reach out to me via <a href="https://twitter.com/iLightShow">Twitter</a> or <a href="https://facebook.com/iLightShow">Facebook</a>!</p>
     </div>
     
 </body>
