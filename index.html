@@ -281,7 +281,7 @@
                         <img srcset="img/app-store.png 1x, img/app-store@2x.png 2x" alt="Download on the App Store">
                     </a>
                     <div class="spacer" style="width:16px"></div>
-                    <a  style="cursor: pointer;"
+                    <a style="cursor: pointer;"
                         onclick="return copyTextAndNavigate('https://play.google.com/store/apps/details?id=com.nanjoran.ilightshow')"
                         href="https://play.google.com/store/apps/details?id=com.nanjoran.ilightshow">
                         <img alt='Get it on Google Play' srcset='img/google-play.png 1x, img/google-play@2x.png 2x' />
@@ -389,19 +389,23 @@
     function copyTextAndNavigate(url) {
         let queryString = window.location.search
         let params = new URLSearchParams(queryString)
-        let text = window.location
-        if (!navigator.clipboard) {
-            fallbackCopyTextToClipboard(text);
-            window.location = url
-            return;
+        if (params.get("ref")) {
+            let text = window.location
+            if (!navigator.clipboard) {
+                fallbackCopyTextToClipboard(text);
+                window.location = url
+                return;
+            }
+            navigator.clipboard.writeText(text).then(function () {
+                console.log('Async: Copying to clipboard was successful!');
+                window.location = url
+            }, function (err) {
+                console.error('Async: Could not copy text: ', err);
+                window.location = url
+            });
+            return false
+        } else {
+            return true
         }
-        navigator.clipboard.writeText(text).then(function () {
-            console.log('Async: Copying to clipboard was successful!');
-            window.location = url
-        }, function (err) {
-            console.error('Async: Could not copy text: ', err);
-            window.location = url
-        });
-        return false
     }
 </script>
