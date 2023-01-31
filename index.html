@@ -29,18 +29,20 @@
             <ul>
                 <!-- <li><a href="#">Features</a></li> -->
                 <!-- <li><a href="#">Blog</a></li> -->
-                <li><a style="background: linear-gradient(#121212, #121212) padding-box,
+                <li><button style="background: linear-gradient(#121212, #121212) padding-box,
                     linear-gradient(to right, darkblue, darkorchid) border-box;
         border-radius: 5px;
-        border: 1.5px solid transparent; padding: 8px 16px" href="#">Download</a></li>
+        border: 1.5px solid transparent; padding: 8px 16px ; cursor: pointer; color: white; font-size: medium;" onclick="download()">Download</button></li>
             </ul>
         </nav>
     </div>
     <div style="display: flex; justify-content: center;">
         <div style="margin-top: 100px; text-align: center; max-width: 700px;">
-            <p style="font-size: 10pt; font-weight: 500; font-stretch: 110%; letter-spacing: 1px;">MEET ILIGHTSHOW 👋</p>
+            <p style="font-size: 10pt; font-weight: 500; font-stretch: 110%; letter-spacing: 1px;">MEET ILIGHTSHOW 👋
+            </p>
             <h1>
-                Sync smart <span class="gradient-underline">Lights</span> to <span class="gradient-underline">Music</span>
+                Sync smart <span class="gradient-underline">Lights</span> to <span
+                    class="gradient-underline">Music</span>
             </h1>
             <p>For Philips Hue, LIFX and Nanoleaf smart lights.</p>
             <div style="margin-top: 24px; display: flex; justify-content: center;">
@@ -57,28 +59,35 @@
         </div>
     </div>
 
-    <div class="iphones" style="overflow: hidden; padding: 0 60px; background-image: url('./img/bg.webp'); background-repeat: no-repeat; background-position: center; background-size: contain;">
-        <img style="height: auto; max-width: 100%"
-            srcset="img/iphones@1x.png 1x, img/iphones@2x.png 2x" alt="">
+    <div class="iphones"
+        style="overflow: hidden; padding: 0 60px; background-image: url('./img/bg.webp'); background-repeat: no-repeat; background-position: center; background-size: contain;">
+        <img style="height: auto; max-width: 100%" srcset="img/iphones@1x.png 1x, img/iphones@2x.png 2x" alt="">
     </div>
 
     <div style="padding: 0px 33px 0px 33px; margin:auto; margin-top: 60px; max-width: 1000px;">
         <div style="text-align: center; margin-top: 70px;">
             <h2>Awesome <span class="gradient-underline">effects</span></h2>
-            <p>iLightShow automatically creates a light show that is synchronized with your favorite songs. You can customize the light show with a variety of options to create the perfect experience for any occasion.</p>
+            <p>iLightShow automatically creates a light show that is synchronized with your favorite songs. You can
+                customize the light show with a variety of options to create the perfect experience for any occasion.
+            </p>
             <p>Strobes, flashes, pulses, slow transitions, you will be amazed 😎</p>
         </div>
-            
+
         <div id="connect-lights" style="display: flex; align-items: center; margin-top: 70px;">
-            
+
             <div style="flex: 2;">
                 <h2>Connect your smart <span class="gradient-underline">Lights</span></h2>
-                <p>iLightShow supports the most popular smart light brands: Philips Hue, LIFX and Nanoleaf (panels only).</p>
+                <p>iLightShow supports the most popular smart light brands: Philips Hue, LIFX and Nanoleaf (panels
+                    only).</p>
                 <p>Mix multiple brands, use multiple Hue bridges at the same time (tested with 12+ Hue bridges).</p>
-                <div id="light-brands" style="display: flex; justify-content: start; flex-wrap: wrap; padding-top: 8px;">
-                    <img style="flex: 1; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;" srcset="img/hue.svg" alt="Hue Logo">
-                    <img style="flex: 1; padding:8px; border-radius: 16px; background-color: white; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;" srcset="img/nanoleaf.png" alt="Nanoleaf Logo">
-                    <img style="flex: 1; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;" srcset="img/lifx.svg" alt="LIFX Logo">
+                <div id="light-brands"
+                    style="display: flex; justify-content: start; flex-wrap: wrap; padding-top: 8px;">
+                    <img style="flex: 1; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;"
+                        srcset="img/hue.svg" alt="Hue Logo">
+                    <img style="flex: 1; padding:8px; border-radius: 16px; background-color: white; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;"
+                        srcset="img/nanoleaf.png" alt="Nanoleaf Logo">
+                    <img style="flex: 1; margin: 0 22px 22px 0; object-fit: contain; object-position: left; height:70px; width: 100px;"
+                        srcset="img/lifx.svg" alt="LIFX Logo">
                 </div>
             </div>
             <img id="connect-lights-img" style="width:50%" src="img/huelight.webp" alt="Philips Hue Light">
@@ -91,19 +100,23 @@
                     height: 0;
                     flex: 0;
                 }
+
                 #connect-lights {
                     text-align: center;
                 }
+
                 #light-brands {
                     width: 100%;
                     justify-content: space-between;
                 }
             }
         </style>
-    
+
         <div style="text-align: center; margin-top: 70px;">
-            <h2>Sync to the playback of your favourite <span class="gradient-underline">Music</span> streaming apps</span></h2>
-            <p>iLightShow leverages an advanced algorithm to create a show, it knows in advance how to sync lights with music's beats to create a perfectly synced light show!</p>
+            <h2>Sync to the playback of your favourite <span class="gradient-underline">Music</span> streaming
+                apps</span></h2>
+            <p>iLightShow leverages an advanced algorithm to create a show, it knows in advance how to sync lights with
+                music's beats to create a perfectly synced light show!</p>
             <p>Here's a list of music streaming services supported by iLightShow</p>
             <div style="display:flex; justify-content:center;">
                 <table style="justify-self:center;">
@@ -115,32 +128,38 @@
 
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/spotify.webp" alt="Spotify"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/spotify.webp"
+                                alt="Spotify"></td>
                         <td>✅</td>
                         <td>✅</td>
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/applemusic.png" alt="Apple Music"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/applemusic.png"
+                                alt="Apple Music"></td>
                         <td>✅</td>
                         <td>✅</td>
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/ytmusic.webp" alt="YouTube Music"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/ytmusic.webp"
+                                alt="YouTube Music"></td>
                         <td>-</td>
                         <td>✅</td>
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/amazonmusic.png" alt="Amazon Music"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/amazonmusic.png"
+                                alt="Amazon Music"></td>
                         <td>-</td>
                         <td>✅</td>
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/tidal.png" alt="Tidal"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/tidal.png"
+                                alt="Tidal"></td>
                         <td>-</td>
                         <td>✅</td>
                     </tr>
                     <tr>
-                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/deezer.webp" alt="Deezer"></td>
+                        <td><img style="object-fit: contain; height:25px; width: 200px;" srcset="img/deezer.webp"
+                                alt="Deezer"></td>
                         <td>-</td>
                         <td>✅</td>
                     </tr>
@@ -149,18 +168,21 @@
         </div>
     </div>
 
-    
+
 
     <div class="bottom" style="text-align: center; font-size: 0.8em; margin-bottom: 24px; margin-top: 70px;">
         <h2>Contact</h2>
         <p>Feel free to reach out if you have any questions or suggestions, I'm here to help (Nicolas 🙋‍♂️)</p>
-        <p>Email me at <a href="mailto:contact@ilightshow.net?subject=Web Contact">contact@ilightshow.net</a>, or reach out to me via <a href="https://twitter.com/iLightShow">Twitter</a> or <a href="https://facebook.com/iLightShow">Facebook</a>!</p>
+        <p>Email me at <a href="mailto:contact@ilightshow.net?subject=Web Contact">contact@ilightshow.net</a>, or reach
+            out to me via <a href="https://twitter.com/iLightShow">Twitter</a> or <a
+                href="https://facebook.com/iLightShow">Facebook</a>!</p>
         <p>© Nicolas Anjoran 2023 &nbsp;|&nbsp; <a href="https://ilightshow.net/privacy-policy">Privacy Policy</a></p>
     </div>
 </body>
 
 </html>
 <script>
+
     function fallbackCopyTextToClipboard(text) {
         var textArea = document.createElement("textarea");
         textArea.value = text;
@@ -205,5 +227,23 @@
         } else {
             return true
         }
+    }
+
+    function download() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        // Huawei Phone must come first because its UA also contains "Android"
+        // if (userAgent.includes("HUAWEI")) {
+        //     return window.location.replace("https://appgallery.huawei.com/app/C101184875");
+        // }
+        if (userAgent.includes("Android")) {
+            return window.location.replace("https://play.google.com/store/apps/details?id=com.nanjoran.ilightshow");
+        }
+        if (userAgent.includes("iPhone")) {
+            return window.location.replace("https://apps.apple.com/us/app/ilightshow-for-philips-hue/id1247273887");
+        }
+        return alert("We couldn't detect your device, please download the app from the App Store or Play Store using the links below.")
+        //cant be sure about device, so redirect to home page
+        // return window.location.replace("https://google.ro");
     }
 </script>
