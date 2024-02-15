@@ -81,7 +81,7 @@ h1>a:hover {
 h1,
 h2 {
     font-weight: 800;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 strong {
@@ -147,10 +147,6 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-
-h2 {
-    font-size: 2.5em;
 }
 
 .gradient-underline {
