@@ -16,13 +16,6 @@
     margin-top: -3px;
 }
 
-li {
-
-    color: #333333;
-    list-style-position: outside;
-    padding-bottom: 5px;
-}
-
 a {
     font-weight: 600;
 }
@@ -59,7 +52,7 @@ body {
 
 
 p {
-    color: #d8d8d8;
+    color: #e6e6e6;
     font-weight: 400;
     font-size: 1em;
     line-height: 1.6em;
