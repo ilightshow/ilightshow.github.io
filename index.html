@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -35,42 +35,56 @@
             "applicationCategory": "EntertainmentApplication"
         }
     </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
-    <!-- <div class="gradient"></div> -->
-    <div class="header">
-        <!-- <img class="icon" srcset="img/topLogo.png 1x, img/topLogo@2x.png 2x" alt="iLightShow icon"> -->
-        <div style="display: flex; align-items: center; max-width: 800px;">
-            <img style="width: 27.5px; height:30px; margin-right: 10px;" srcset="img/logo.webp 2x" alt="iLightShow icon">
-            <div style="display: flex; align-items: center;">
-                <h3>iLightShow</h3>
-                <div style="font-weight: 600; font-size: 10pt; border: solid white 1px; border-radius: 8px; padding: 4px; margin: 10px;">iOS</div>
+<body style="background-color: black;">
+    <div style="background-color: #151515;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="padding-left: 0;">
+                <div>
+                    <div style="display: flex; align-items: center;">
+                        <img style="width: 27.5px; height:30px; margin-right: 10px;" srcset="img/logo.webp 2x" alt="iLightShow icon">
+                        iLightShow
+                        <div style="font-weight: 600; font-size: 8pt; border: solid white 1px; border-radius: 8px; padding: 4px; margin-left: 10px;">iOS</div>
+                    </div>
+                </div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Android (lite)</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a style="cursor: pointer;"
-                        href="https://apps.apple.com/us/app/ilightshow-for-philips-hue/id1247273887">
-                        <img srcset="img/app-store.png 1x, img/app-store@2x.png 2x" alt="Download on the App Store">
-                    </a></li>
-            </ul>
-        </nav>
+          </nav>
     </div>
+    
+    
     <div style="display: flex; justify-content: center;">
-        <div style="margin-top: 100px; text-align: center; max-width: 700px;">
+        <div style="margin-top: 50px; text-align: center; max-width: 700px;">
             <!-- <p style="font-size: 10pt; font-weight: 500; font-stretch: 110%; letter-spacing: 1px;">MEET ILIGHTSHOW 👋
             </p> -->
-            <h1>
+            <h1 style="font-weight: 700;">
                 Sync <span class="gradient-underline">Lights</span> to <span class="gradient-underline">Music</span>
             </h1>
-            <div style="text-align: center; max-width: 700px; padding: 0 16pt 0 16pt;">
+            <div style="text-align: center; max-width: 700px; margin-top: 16px; padding: 0 16pt 0 16pt;">
                 <p><strong>For Philips Hue, LIFX and Nanoleaf</strong></p>
             </div>
-            <a style="cursor: pointer;"
-                        href="https://apps.apple.com/us/app/ilightshow-for-philips-hue/id1247273887">
-                        <img srcset="img/app-store.png 1x, img/app-store@2x.png 2x" alt="Download on the App Store">
-                    </a>
+            <a style="cursor: pointer;" href="https://apps.apple.com/us/app/ilightshow-for-philips-hue/id1247273887">
+                <img srcset="img/app-store.png 1x, img/app-store@2x.png 2x" alt="Download on the App Store">
+            </a>
         </div>
     </div>
 
@@ -114,49 +128,86 @@
     </div>
 
     <div style="padding: 0px 33px 0px 33px; margin:auto; max-width: 800px; text-align: left;">
-        
+
         <div style="margin-top: 70px;">
             <img src="img/Confettis@3x.png" alt="Hue light icon" width="40">
-            <h2 style="margin-top: 16px;">Magic <span class="gradient-underline">Effects</span></h2>
+            <h2 style="margin-top: 16px; font-weight: 700;">Beautiful <span class="gradient-underline">Effects</span></h2>
             <p>iLightShow automatically creates a light show that is synchronized with your favorite songs. You can
                 customize the light show with a variety of options to create the perfect experience for any occasion.
             </p>
             <ul style="text-align: left; color: white; padding-left: 16px;">
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Beats and Drums</strong> - lights react to beats and drums for dynamic visual effects</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Buildups and Drops</strong> - dramatic strobes during exciting parts of the song</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Automatic calibration</strong> - using the microphone input for a perfect sync</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Color effects</strong> - strobes, flashes, pulses, slow transitions...</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Mood detection</strong> - adjusts the effects' intensity to match the music's mood </p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Customizable</strong> - tailor your light show with adjustable brightness, color palettes, flashes, strobes, pulses, and effect sizes</p></li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Beats and Drums</strong> - lights react to
+                        beats and drums for dynamic visual effects</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Buildups and Drops</strong> - dramatic
+                        strobes during exciting parts of the song</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Automatic calibration</strong> - using the
+                        microphone input for a perfect sync</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Color effects</strong> - strobes, flashes,
+                        pulses, slow transitions...</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Mood detection</strong> - adjusts the
+                        effects' intensity to match the music's mood </p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Customizable</strong> - tailor your light
+                        show with adjustable brightness, color palettes, flashes, strobes, pulses, and effect sizes</p>
+                </li>
             </ul>
         </div>
 
         <div style="margin-top: 70px;">
             <img src="img/LightIconBlue@3x.png" alt="Hue light icon" width="40">
-            <h2 style="margin-top: 16px;">Compatible <span class="gradient-underline">Lights</span></h2>
+            <h2 style="margin-top: 16px; font-weight: 700;">Compatible <span class="gradient-underline">Lights</span></h2>
             <p>iLightShow automatically creates a light show that is synchronized with your favorite songs. You can
                 customize the light show with a variety of options to create the perfect experience for any occasion.
             </p>
             <ul style="text-align: left; color: white; padding-left: 16px;">
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Philips Hue</strong> - Requires a Hue Bridge v2 and supports multiple bridges, tested with 120+ Hue lights across 12 bridges</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">LIFX</strong> - Expand your lighting setup with LIFX’s vibrant color range</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Nanoleaf Panels</strong> - Add a geometric dimension to your light show (Excluding the essentials)</p></li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Philips Hue</strong> - Requires a Hue
+                        Bridge v2 and supports multiple bridges, tested with 120+ Hue lights across 12 bridges</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">LIFX</strong> - Expand your lighting setup
+                        with LIFX’s vibrant color range</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Nanoleaf Panels</strong> - Add a geometric
+                        dimension to your light show (Excluding the essentials)</p>
+                </li>
             </ul>
         </div>
 
         <div style="margin-top: 70px;">
             <img src="img/MusicIcon@3x.png" alt="Hue light icon" width="40">
-            <h2 style="margin-top: 16px;"><span class="gradient-underline">Music</span> input</h2>
-            <p style="text-align: left; color: white;">Create a light show that moves with your music. iLightShow connects with</p>
+            <h2 style="margin-top: 16px; font-weight: 700;"><span class="gradient-underline">Music</span> sources</h2>
+            <p style="text-align: left; color: white;">Create a light show that moves with your music. iLightShow
+                connects with</p>
 
             <ul style="text-align: left; color: white; padding-left: 16px;">
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Philips Hue</strong> - Requires a Hue Bridge v2 and supports multiple bridges, tested with 120+ Hue lights across 12 bridges</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">LIFX</strong> - Expand your lighting setup with LIFX’s vibrant color range</p></li>
-                <li><p style="color: #a0a0a0;"><strong style="color: white;">Nanoleaf Panels</strong> - Add a geometric dimension to your light show (Excluding the essentials)</p></li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Philips Hue</strong> - Requires a Hue
+                        Bridge v2 and supports multiple bridges, tested with 120+ Hue lights across 12 bridges</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">LIFX</strong> - Expand your lighting setup
+                        with LIFX’s vibrant color range</p>
+                </li>
+                <li>
+                    <p style="color: #a0a0a0;"><strong style="color: white;">Nanoleaf Panels</strong> - Add a geometric
+                        dimension to your light show (Excluding the essentials)</p>
+                </li>
             </ul>
         </div>
 
-        
+
 
     </div>
 
@@ -166,6 +217,7 @@
         <p>Email me at <a href="mailto:contact@ilightshow.net?subject=Web Contact">contact@ilightshow.net</a></p>
         <p>© Nicolas Anjoran 2024 &nbsp;|&nbsp; <a href="https://ilightshow.net/privacy-policy">Privacy Policy</a></p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>
