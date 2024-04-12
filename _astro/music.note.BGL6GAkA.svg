@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="197px" viewBox="0 0 120 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>music.note</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="music.note" transform="translate(0.000000, -4.000000)">
+            <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="119.141" height="200.684"></rect>
+            <path d="M119.141,48.9258 L119.141,12.207 C119.141,7.03125 114.941,3.71094 109.961,4.6875 L59.7656,15.625 C53.5156,16.9922 50.0977,20.4102 50.0977,25.8789 L50.293,134.473 C50.7812,139.258 48.5352,142.383 44.2383,143.262 L28.7109,146.484 C9.17969,150.586 0,160.547 0,175.293 C0,190.234 11.5234,200.684 27.7344,200.684 C42.0898,200.684 63.5742,190.137 63.5742,161.719 L63.5742,72.3633 C63.5742,67.1875 64.5508,66.1133 69.1406,65.1367 L113.77,55.3711 C117.09,54.6875 119.141,52.1484 119.141,48.9258 Z" id="Path" fill="#FF375F"></path>
+        </g>
+    </g>
+</svg>

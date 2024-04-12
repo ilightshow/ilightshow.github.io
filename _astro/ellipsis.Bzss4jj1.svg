@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="37px" viewBox="0 0 183 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>ellipsis</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ellipsis">
+            <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="182.227" height="37.207"></rect>
+            <path d="M163.672,37.0117 C173.926,37.0117 182.227,28.8086 182.227,18.5547 C182.227,8.30078 173.926,0 163.672,0 C153.418,0 145.117,8.30078 145.117,18.5547 C145.117,28.8086 153.418,37.0117 163.672,37.0117 Z" id="Path" fill="#0A84FF"></path>
+            <path d="M91.1133,37.0117 C101.367,37.0117 109.57,28.8086 109.57,18.5547 C109.57,8.30078 101.367,0 91.1133,0 C80.8594,0 72.5586,8.30078 72.5586,18.5547 C72.5586,28.8086 80.8594,37.0117 91.1133,37.0117 Z" id="Path" fill="#0A84FF"></path>
+            <path d="M18.5547,37.0117 C28.8086,37.0117 37.0117,28.8086 37.0117,18.5547 C37.0117,8.30078 28.8086,0 18.5547,0 C8.30078,0 0,8.30078 0,18.5547 C0,28.8086 8.30078,37.0117 18.5547,37.0117 Z" id="Path" fill="#0A84FF"></path>
+        </g>
+    </g>
+</svg>

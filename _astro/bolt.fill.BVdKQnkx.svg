@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="219px" viewBox="0 0 138 219" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>bolt.fill</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bolt.fill">
+            <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="137.598" height="219.778"></rect>
+            <path d="M0,121.168 C0,124.977 2.92969,127.809 7.03125,127.809 L62.207,127.809 L33.1055,206.911 C29.2969,216.969 39.7461,222.34 46.2891,214.137 L135.059,103.2 C136.719,101.149 137.598,99.1958 137.598,96.9497 C137.598,93.2388 134.668,90.3091 130.566,90.3091 L75.3906,90.3091 L104.492,11.2075 C108.301,1.14895 97.8516,-4.22214 91.3086,4.07864 L2.53906,114.918 C0.878906,117.067 0,119.02 0,121.168 Z" id="Path" fill="#FFD60A"></path>
+        </g>
+    </g>
+</svg>
